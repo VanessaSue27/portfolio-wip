@@ -1,0 +1,721 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* HEADER STYLING*/
+header {
+    background-image: url(./assets/watermelon-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+    width: 100%;
+    color: white;
+}
+
+.header-elements {
+    width: 60%;
+    max-width: 1360px;
+    min-width: 770px;
+    position: relative;
+    margin: auto;
+}
+
+.name-header {
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    left: 0;
+    top: 135px;
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+.vanessa-name-header {
+    font-weight: bold;
+}
+
+.header-job-title {
+    position: absolute;
+    left: 0;
+    top: 200px;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.header-job-title h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.header-job-title h3 {
+    margin-top: 14px;
+}
+
+.social-media-icons-header {
+    position: absolute;
+    right: 0;
+    top: 100px;
+}
+
+.social-media-icons-header img {
+    margin: 5px;
+}
+
+.my-photo {
+    border-radius: 50%;
+    border: 5px solid white;
+    width: 325px;
+    position: absolute;
+    right: 10px;
+    top: 350px;
+    z-index: 5;
+}
+
+/* SUMMARY SECTION STYLING*/
+.summary-section {
+    background-color: #f4f4f4;
+    font-size: 25px;
+    height: 350px;
+    margin-top: 7px;
+    position: relative;
+}
+
+.summary-section p {
+    width: 60%;
+    max-width: 1360px;
+    position: absolute;
+    left: 0; 
+    right: 0;
+    margin: 0 auto;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.summary-red-line {
+    display: inline-block;
+    width: 80px;
+    height: 9px;
+    border-top: 4px solid #ff5a60;
+}
+
+.summary-red-dot {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #ff5a60;
+    background-color: #ff5a60;
+    margin-right: 15px;
+    margin-left: -1px;
+    border-radius: 50%;
+}
+
+/* TECH SECTION STYLING*/
+.tech-section {
+    font-size: 25px;
+    height: 350px;
+    text-align: center;
+    width: 60%;
+    max-width: 1360px;
+    margin: auto;
+}
+
+.tech-title {
+    background-color: #ff5a60;
+    color: white;
+    display: inline-block;
+    font-size: 35px;
+    padding: 8px;
+    margin-bottom: 0;
+    margin-top: 90px;
+}
+
+/* FEATURED PROJECTS SECTION STYLING*/
+.projects-section {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.projects-title, .blogposts-title, .skills-section-title, .for-more-title, .blogposts-title-hidden {
+    background-color: #ff5a60;
+    color: white;
+    display: inline-block;
+    font-size: 35px;
+    padding: 8px;
+    margin-top: 90px;
+}
+
+/*PROJECT CARDS STYLING*/
+.projects-container {
+    width: 60%;
+    max-width: 1360px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.project-card {
+    width: 48%;
+    margin-bottom: 25px;
+}
+
+.project-img-text {
+    position: relative;
+}
+
+.project-card img {
+    width: 100%;
+}
+
+.project-card h2 {
+    position: absolute;
+    font-size: 45px;
+    left: 0; 
+    right: 0;
+    margin: 0 auto;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+}
+
+.project-card h3 {
+    color: #ff5a60;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    text-align: left;
+    margin-bottom: 0;
+}
+
+.project-card p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    text-align: left;
+    margin-top: 5px;
+}
+
+.arrow-link {
+    font-weight: bold;
+    color: #ff5a60;
+    text-decoration: underline;
+}
+
+.tags-container {
+    display: flex;
+}
+
+.tags-container p {
+    background-color: #fddfe7;
+    font-size: 17px;
+    padding: 5px;
+    margin-right: 13px;
+    margin-top: 15px;
+}
+
+.other-projects-title, .more-blogposts-title {
+    color: #ff5a60;
+    font-size: 35px;
+}
+
+/*OTHER PROJECTS SECTION STYLING*/
+.other-projects-container {
+    width: 60%;
+    max-width: 1360px;
+    text-align: left;
+    margin: auto;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.other-projects-container p {
+    margin-bottom: 0;
+}
+
+.other-projects-card {
+    margin-bottom: 50px;
+}
+
+.other-projects-card a {
+    color: black;
+    font-size: 25px;
+}
+
+/*BLOGPOSTS SECTION STYLING*/
+.blogposts-section {
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+.blogposts-title-hidden {
+    display: none;
+}
+
+.blogposts-container {
+    display: flex;
+    width: 60%;
+    max-width: 1360px;
+    margin: auto;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.blogpost-card {
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+}
+
+.blogpost-card img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+.date-blogpost {
+    color: #ff5a60;
+    font-size: 25px;
+    margin-bottom: 0;
+}
+
+.blogpost-title {
+    font-size: 25px;
+    margin-top: 2px;
+    margin-bottom: 0;
+}
+
+.blogpost-text {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.more-blogposts-container {
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    width: 60%;
+    max-width: 1360px;
+    margin: auto;
+}
+
+.more-thoughts-link {
+    color: #ff5a60;
+    text-decoration: underline;
+}
+
+.more-blogposts-container a {
+    color: black;
+}
+
+/* SKILLS SECTION STYLING*/
+.skills-section {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.skills-lists-container {
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    width: 60%;
+    max-width: 1360px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.skill-list {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 30%;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 5px;
+}
+
+.skill-list h2 {
+    margin-bottom: 0;
+    color: #ff5a60;
+    font-size: 25px;
+}
+
+/* FOR MORE SECTION STYLING*/
+.for-more-section {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.for-more-socials-container {
+    width: 60%;
+    max-width: 1360px;
+    padding-top: 30px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.for-more-social-card img {
+    width: 170px;
+}
+
+.for-more-social-card p {
+    font-family: 'Roboto', sans-serif;
+    color: #ff5a60;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/*CONTACT SECTION STYLING*/
+.contact-section {
+    background-color: #aa7815;
+    position: relative;
+    bottom: 0;
+    height: 450px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+.contact-section h1 {
+    padding-top: 120px;
+}
+
+.contact-section p {
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+
+/*Media Queries*/
+/*TABLET*/
+@media (min-width: 667px) and (max-width: 1024px) {
+    header {
+        height: 850px;
+    }
+
+    .header-elements {
+        min-width: 667px;
+    }
+
+    .social-media-icons-header {
+        top: 130px;
+        right: 40px;
+    }
+
+    .name-header {
+        top: 280px;
+        left: 70px;
+    }
+    
+    .header-job-title {
+        top: 340px;
+        left: 70px;
+    }
+
+    .my-photo {
+        top: 550px;
+        right: 50px;
+    }
+
+    .summary-section {
+        height: 550px;
+    }
+
+    .tech-section {
+        height: 450px;
+    }
+
+    .projects-container {
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+    }
+
+    .project-card {
+        width: 100%
+    }
+
+    .project-card img {
+        height: 300px;
+        object-fit: cover;
+    }
+
+    .project-hide {
+        display: none; /*Hides 3rd and 4th project cards*/
+    }
+
+    .blogposts-title {
+        display: none;
+    }
+
+    .blogposts-title-hidden {
+        display: inline-block;
+    }
+
+    .blogposts-container {
+        width: 80%;
+        flex-direction: column;
+    }
+
+    .blogpost-card {
+        width: 100%;
+    }
+
+    .blogpost-hidden {
+        display: none; /*Hide second blogpost card*/
+    }
+
+    .more-blogposts-container a {
+        text-decoration: none;
+    }
+
+    .skills-lists-container {
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .skill-list {
+        width: 40%;
+    }
+
+    .for-more-socials-container {
+        width: 80%;
+    }
+    
+    .for-more-social-card img {
+        width: 110px;
+    }
+    
+    .for-more-social-card p {
+        font-size: 20px;
+    }
+}
+
+/*MOBILE*/
+@media (max-width: 666px) {
+    header {
+        height: 600px;
+    }
+
+    .header-elements {
+        width: 100%;
+        min-width: 320px;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    .social-media-icons-header {
+        top: 130px;
+        right: 80px;
+    }
+
+    .social-media-icons-header img {
+        width: 45px;
+    }
+
+    .name-header {
+        top: 230px;
+        left: 30px;
+        font-size: 17px;
+    }
+    
+    .header-job-title {
+        top: 270px;
+        left: 30px;
+        font-size: 25px;
+    }
+
+    .my-photo {
+        top: 460px;
+        right: 85px;
+        width: 150px;
+        border: 3px solid white;
+    }
+
+    .summary-section {
+        height: 450px;
+        font-size: 17px;
+    }
+
+    .summary-section p {
+        width: 80%;
+    }
+
+    .summary-red-line {
+        width: 30px;
+        height: 4px;
+        border-top: 2px solid #ff5a60;
+    }
+    
+    .summary-red-dot {
+        width: 6px;
+        height: 6px;
+    }
+
+    .tech-section {
+        height: 320px;
+        font-size: 17px;
+    }
+
+    .tech-title {
+        font-size: 20px;
+        margin-top: 60px;
+    }
+
+    .projects-container {
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+    }
+
+    .projects-title {
+        font-size: 20px;
+    }
+
+    .project-card {
+        width: 100%;
+    }
+
+    .project-card img {
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .project-card h2 {
+        font-size: 20px;
+    }
+
+    .project-card h3, .project-card p {
+        font-size: 17px;
+    }
+
+    .tags-container p {
+        font-size: 10px;
+    }
+
+    .project-hide {
+        display: none; /*Hides 3rd and 4th project cards*/
+    }
+
+    .other-projects-title {
+        font-size: 20px;
+    }
+
+    .other-projects-container {
+        width: 80%;
+    }
+
+    .other-projects-container a {
+        font-size: 17px;
+        text-decoration: none;
+    }
+
+    .blogposts-title {
+        display: none;
+    }
+
+    .blogposts-title-hidden {
+        display: inline-block;
+        font-size: 20px;
+        margin-top: 40px;
+    }
+
+    .blogposts-container {
+        width: 80%;
+        flex-direction: column;
+    }
+
+    .blogpost-card {
+        width: 100%;
+    }
+
+    .date-blogpost, .blogpost-title, .blogpost-text {
+        font-size: 17px;
+    }
+
+    .blogpost-hidden {
+        display: none; /*Hide second blogpost card*/
+    }
+
+    .more-blogposts-title {
+        font-size: 20px;
+    }
+
+    .more-blogposts-container {
+        width: 80%;
+    }
+
+    .more-blogposts-container a {
+        text-decoration: none;
+        font-size: 17px;
+        font-weight: bold;
+    }
+
+    .skills-section {
+        padding-bottom: 30px;
+    }
+
+    .skills-lists-container {
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .skills-section-title {
+        font-size: 20px;
+        margin-top: 50px;
+    }
+
+    .skill-list h2, li {
+        font-size: 17px;
+    }
+
+    .skill-list {
+        width: 40%;
+    }
+
+    .for-more-section {
+        padding-bottom: 40px;
+    }
+
+    .for-more-title {
+        font-size: 20px;
+        margin-top: 50px;
+    }
+    
+    .for-more-social-card img {
+        width: 60px;
+    }
+    
+    .for-more-social-card p {
+        font-size: 11px;
+    }
+
+    .for-more-socials-container {
+        width: 90%;
+    }
+
+    .contact-section  {
+        height: 300px;
+    }
+
+    .contact-section h1 {
+        padding-top: 70px;
+        font-size: 30px;
+    }
+
+    .contact-section p {
+        font-size: 20px;
+    }
+}
