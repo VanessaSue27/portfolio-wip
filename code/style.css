@@ -195,6 +195,11 @@ header {
     margin-top: 5px;
 }
 
+.project-card a {
+    text-decoration: none;
+    color: black;
+}
+
 .arrow-link {
     font-weight: bold;
     color: #ff5a60;
