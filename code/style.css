@@ -95,15 +95,15 @@ header {
     display: inline-block;
     width: 80px;
     height: 9px;
-    border-top: 4px solid #ff5a60;
+    border-top: 4px solid #FF484C;
 }
 
 .summary-red-dot {
     display: inline-block;
     width: 20px;
     height: 20px;
-    border: 2px solid #ff5a60;
-    background-color: #ff5a60;
+    border: 2px solid #FF484C;
+    background-color: #FF484C;
     margin-right: 15px;
     margin-left: -1px;
     border-radius: 50%;
@@ -120,7 +120,7 @@ header {
 }
 
 .tech-title {
-    background-color: #ff5a60;
+    background-color: #FF484C;
     color: white;
     display: inline-block;
     font-size: 35px;
@@ -137,7 +137,7 @@ header {
 }
 
 .projects-title, .blogposts-title, .skills-section-title, .for-more-title, .blogposts-title-hidden {
-    background-color: #ff5a60;
+    background-color: #FF484C;
     color: white;
     display: inline-block;
     font-size: 35px;
@@ -181,7 +181,7 @@ header {
 }
 
 .project-card h3 {
-    color: #ff5a60;
+    color: #FF484C;
     font-family: 'Roboto', sans-serif;
     font-size: 25px;
     text-align: left;
@@ -202,7 +202,7 @@ header {
 
 .arrow-link {
     font-weight: bold;
-    color: #ff5a60;
+    color: #FF484C;
     text-decoration: underline;
 }
 
@@ -220,7 +220,7 @@ header {
 }
 
 .other-projects-title, .more-blogposts-title {
-    color: #ff5a60;
+    color: #FF484C;
     font-size: 35px;
 }
 
@@ -282,7 +282,7 @@ header {
 }
 
 .date-blogpost {
-    color: #ff5a60;
+    color: #FF484C;
     font-size: 25px;
     margin-bottom: 0;
 }
@@ -313,7 +313,7 @@ header {
 }
 
 .more-thoughts-link {
-    color: #ff5a60;
+    color: #FF484C;
     text-decoration: underline;
 }
 
@@ -354,7 +354,7 @@ ul {
 
 .skill-list h2 {
     margin-bottom: 0;
-    color: #ff5a60;
+    color: #FF484C;
     font-size: 25px;
 }
 
@@ -380,14 +380,18 @@ ul {
 
 .for-more-social-card p {
     font-family: 'Roboto', sans-serif;
-    color: #ff5a60;
+    color: #FF484C;
     font-size: 25px;
     font-weight: bold;
 }
 
+.for-more-social-card a {
+    text-decoration: none;
+}
+
 /*CONTACT SECTION STYLING*/
 .contact-section {
-    background-color: #aa7815;
+    background-color: #B57A0D;
     position: relative;
     bottom: 0;
     height: 450px;
@@ -570,7 +574,7 @@ ul {
     .summary-red-line {
         width: 30px;
         height: 4px;
-        border-top: 2px solid #ff5a60;
+        border-top: 2px solid #FF484C;
     }
     
     .summary-red-dot {
