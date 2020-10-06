@@ -5,7 +5,7 @@ body {
 
 /* HEADER STYLING*/
 header {
-    background-image: url(./assets/watermelon-header.jpg);
+    background-image: url("./assets/watermelon-header.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 650px;
@@ -117,6 +117,7 @@ header {
     width: 60%;
     max-width: 1360px;
     margin: auto;
+    padding-bottom: 20px;
 }
 
 .tech-title {
@@ -445,7 +446,7 @@ ul {
     }
 
     .tech-section {
-        height: 450px;
+        height: 400px;
     }
 
     .projects-container {
@@ -465,6 +466,10 @@ ul {
 
     .project-hide {
         display: none; /*Hides 3rd and 4th project cards*/
+    }
+
+    .other-projects-container, .more-blogposts-container {
+        width: 80%;
     }
 
     .other-projects-card a {
