@@ -208,6 +208,7 @@ header {
 
 .tags-container {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .tags-container p {
