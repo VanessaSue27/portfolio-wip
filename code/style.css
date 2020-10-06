@@ -117,17 +117,24 @@ header {
     width: 60%;
     max-width: 1360px;
     margin: auto;
-    padding-bottom: 20px;
+    position: relative;
 }
-
 .tech-title {
     background-color: #FF484C;
     color: white;
     display: inline-block;
     font-size: 35px;
     padding: 8px;
-    margin-bottom: 0;
-    margin-top: 70px;
+    margin-bottom: 10px;
+}
+.tech-section-text {
+    max-width: 1360px;
+    position: absolute;
+    left: 0; 
+    right: 0;
+    margin: 0 auto;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 /* FEATURED PROJECTS SECTION STYLING*/
@@ -594,7 +601,6 @@ ul {
 
     .tech-title {
         font-size: 20px;
-        margin-top: 60px;
     }
 
     .projects-container {
