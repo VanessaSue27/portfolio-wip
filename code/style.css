@@ -298,6 +298,11 @@ header {
     margin-top: 10px;
 }
 
+.blogpost-card a {
+    text-decoration: none;
+    color: black;
+}
+
 .more-blogposts-container {
     font-size: 25px;
     font-family: 'Roboto', sans-serif;
