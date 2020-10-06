@@ -452,6 +452,10 @@ ul {
         display: none; /*Hides 3rd and 4th project cards*/
     }
 
+    .other-projects-card a {
+        text-decoration: none;
+    }
+
     .blogposts-title {
         display: none;
     }
@@ -475,6 +479,7 @@ ul {
 
     .more-blogposts-container a {
         text-decoration: none;
+        font-weight: bold;
     }
 
     .skills-lists-container {
@@ -637,6 +642,10 @@ ul {
 
     .blogpost-card {
         width: 100%;
+    }
+
+    .blogpost-card img {
+        height: 250px;
     }
 
     .date-blogpost, .blogpost-title, .blogpost-text {
