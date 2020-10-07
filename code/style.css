@@ -164,9 +164,11 @@ header {
     justify-content: space-between;
 }
 
-.project-card {
+.projects-container a {
     width: 48%;
     margin-bottom: 25px;
+    text-decoration: none;
+    color: black;
 }
 
 .project-img-text {
@@ -275,15 +277,15 @@ header {
     padding-bottom: 20px;
 }
 
-.blogpost-card {
-    display: flex;
-    flex-direction: column;
-    width: 48%;
+.blogposts-container a {
+    text-decoration: none;
+    color: black;
     text-align: left;
     font-family: 'Roboto', sans-serif;
+    width: 48%;
 }
 
-.blogpost-card img {
+article img {
     width: 100%;
     height: 350px;
     object-fit: cover;
@@ -304,11 +306,6 @@ header {
 .blogpost-text {
     font-size: 20px;
     margin-top: 10px;
-}
-
-.blogpost-card a {
-    text-decoration: none;
-    color: black;
 }
 
 .more-blogposts-container {
@@ -462,7 +459,7 @@ ul {
         width: 80%;
     }
 
-    .project-card {
+    .projects-container a {
         width: 100%
     }
 
@@ -496,7 +493,7 @@ ul {
         flex-direction: column;
     }
 
-    .blogpost-card {
+    .blogposts-container a {
         width: 100%;
     }
 
@@ -613,7 +610,7 @@ ul {
         font-size: 20px;
     }
 
-    .project-card {
+    .projects-container a {
         width: 100%;
     }
 
@@ -666,7 +663,7 @@ ul {
         flex-direction: column;
     }
 
-    .blogpost-card {
+    .blogposts-container a {
         width: 100%;
     }
 
