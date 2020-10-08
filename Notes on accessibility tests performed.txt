@@ -1,0 +1,21 @@
+NOTES AFTER RUNNING ALL ACCESSIBILITY TESTS:
+
+When validating HTML using validator.w3.org - 
+Only got warnings about the usage of h1 element. I've chosen to use h1 elements for the titles of each of the different sections, which makes the most sense to me. Depending on whether the section contains extra lower level content (like in the 'Featured Projects' section and the 'Toughts About Code' section) then I've added h2 and h3 for subtitles.
+
+Ran an audit using Wave (wave.webaim.org) -
+After implementing changes based on their feedback, brought my alerts down from 51 to 29.
+Got some errors regarding the contrast: "Very low contrast between text and background colors." This was only for the header section and Featured Projects section in which we have text on top of images. I felt this is more of a design decision, unsure how to approach these specific errors.
+
+Got some Alerts regarding the alt text on non-text elements: Decided to re-write the text for the images in the Thoughts about Code section to add some more context. But removed the alt text from the images in the Featured Projects section based on this data I got from Wave website:
+"If the image does not convey content or if the content is presented in nearby text (e.g., a caption), null/empty alternative text (alt="") is appropriate."
+The whole section is clickable and links to a GitHub repo, so felt the img alt text was redundant.
+
+In some cases I was suggested to change p elements into h2 elements, but I felt those were not relevant enough to be made into h2 headings. How to approach this case? Is it better to follow what the audit says or can I make that call to keep them as p?
+
+Got some feedback on redundant linking: specifically on the sections where we are linking projects and articles: the whole section (including image and text) should be clickable, so changed my HTML to make the whole div clickable instead of making each element into a link to avoid redundancy.
+
+There were some warnings about underlined text present and to only use underlining when linking to something, but in this case all the underlined texts are links so decided to keep them in.
+
+Screen Reader testing done with ChromeVox classic extension and also on iPhone Speak Screen feature -
+Did a first read-through of the site and added some tabindex values on elements I felt needed to be read out loud, but also used aria hidden to hide elements that I felt were not necessary to be read.
