@@ -7,7 +7,7 @@ Time flies and we are already working on our portfolio! Exciting times ahead �
 - Regarding responsiveness: This time I chose a Desktop first approach, since the site is so complex regarding the amount of elements in it. Then hide elements and change Flexbox direction when necessary when scaling down to smaller devices.
 
 ## Accessibility Testing
-Here's an overview of all the testing I did on this portoflio project 💥
+Here's an overview of all the testing I did on this portfolio project 💥
 - Devices: What was accessible to me (iPhone 6 Safari, iPad Safari).
 - Chrome, Edge and Firefox: Tested for tab and keyboard browsing and also Enter key to access links.
 - HTML Validation: Used Lighthouse in Chrome Dev tools (Scored - 100 Accessibility, 92 Best Pratices and 89 SEO). Also used W3C (validator.w3.org) for validation.
