@@ -173,10 +173,18 @@ header {
 
 .project-img-text {
     position: relative;
+    background: black;
+    height: 350px;
 }
 
 .project-card img {
     width: 100%;
+    height: 100%;
+    opacity: 0.6;
+}
+
+.project-card img:hover {
+  opacity: 1;
 }
 
 .project-card h2 {
@@ -289,6 +297,11 @@ article img {
     width: 100%;
     height: 350px;
     object-fit: cover;
+}
+
+article img:hover {
+  box-sizing: border-box;
+  border: 5px solid #FF484C;
 }
 
 .date-blogpost {
@@ -463,6 +476,10 @@ ul {
         width: 100%
     }
 
+    .project-img-text {
+      height: 300px;
+    }
+
     .project-card img {
         height: 300px;
         object-fit: cover;
@@ -612,6 +629,10 @@ ul {
 
     .projects-container a {
         width: 100%;
+    }
+
+    .project-img-text {
+      height: 200px;
     }
 
     .project-card img {
